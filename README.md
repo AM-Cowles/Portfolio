@@ -18,6 +18,6 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 ## Screenshot
 
-The following image shows the deployed applicaiton's appearance and functionality.
+The following image shows the deployed application's appearance and functionality.
 
 ![The Portfolio homepage displays a functional navbar, cards and a contact me form.](Images/portfolio-site.jpg)

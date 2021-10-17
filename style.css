@@ -6,7 +6,14 @@ body, html{
     font-family: sans-serif;
 }
 
-.hero-image {
+.intro{
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.top-page {
     background-image: url("Images/coding-brain.jpg");
     height: 300px;
     color: white;
@@ -14,6 +21,25 @@ body, html{
     padding-top: 130px;
 }
 
-.content {
+.page {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    color: white;
     text-align: center;
+}
+
+.port-recent {
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 300%;
 }
