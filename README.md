@@ -20,4 +20,4 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 The following image shows the deployed application's appearance and functionality.
 
-![The Portfolio homepage displays a functional navbar, cards and a contact me form.](Images/portfolio-site.jpg)
+![The Portfolio homepage displays a functional navbar, cards and a contact me form.](img/portfolio-site.jpg)
