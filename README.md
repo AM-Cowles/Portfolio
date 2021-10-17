@@ -1,23 +1,27 @@
-# 02 Advanced CSS: Portfolio
+# Portfolio
 
 ## Description
+This application is created as a mobile responsive portfolio, using the Bootstrap CSS Framework with a navbar, responsive layout, and responsive images. The application includes an index page describing the author, a portfolio page that displays projects, and a contact page containing information on how to contact the author.
 
-The purpose of this project was to develop a functional and responsive Portfolio website.
+The Deployed Application can be accessed at : [Responsive-Portfolio](https://AM-Cowles.github.io/Portfolio)
 
-## Deployed Application
+# Technologies Used:
+-HTML
+-CSS
+-Bootstrap v5.0.0
 
-https://am-cowles.github.io/Portfolio/
+# Index Page Describing The Author
 
-## User Story
+![About](assets/img/About.png)
 
-```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
-```
+# Portfolio Page Displaying Projects
 
-## Screenshot
+![Portfolio](assets/img/Portfolio.png)
 
-The following image shows the deployed application's appearance and functionality.
+# Contact Page Containing Contact Info
 
-![The Portfolio homepage displays a functional navbar, cards and a contact me form.](assets/img/portfolio-site.jpg)
+![Contact](assets/img/Contact.png)
+
+## Questions
+* My repositories can be found at https://www.github.com/AM-Cowles
+* For any questions regarding this application, you can email me at alyssa.m.cowles@gmail.com
