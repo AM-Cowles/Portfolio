@@ -1,101 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <title>Erin Seppala - About Me</title>
 
-    <head>
-        <meta charset="usf-8">
-        <title>My Portfolio</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">Erin Seppala</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li> 
+            </ul>
+        </div>
+        </div>
+    </nav>
 
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navigation</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#about-me">About Me</a>
-                <a class="nav-link" href="#past-projects">Past Projects</a>
-                <a class="nav-link" href="#contact-me">Contact Me</a>
-                </div>
-            </div>
-            </div>
-            </div>
-        </nav>
+    <header class=top-page>
+        <h1>Hello World!</h1>
+    </header>
+    
+    <main class="page">
 
-        <header>
-            <div class="hero-image"></div>
-        </header>
-        <br>
-        <section class="content" id="about-me">
-            <h1>About Me</h1>
-            <p>My name is Alyssa Cowles. I'm a Stay-at-Home mom currently attending MSU Coding Bootcamp. I'm taking this course to become a full stack web developer.</p>
-
-            <p>I've worked with HTML, CSS and JavaScript.</p>
-        </section>
-        <br>
-
-        <section class="content" id="past-projects">
-            <h2>Past Projects</h2>
         <section class="row">
+            <div class="col-lg-6 intro">
+                <img src="assets\img\image.png" class="img-fluid" alt="music-picture">
+            </div>
+
+            <div class="col-lg-6 intro">
+                <h1>About Me</h1>
+
+                <p>Hello! My name is Erin Seppala, I'm 23 years old, living in West Suffield, CT. After previously working towards becoming a music major, I decided to keep music as a hobby to pursue my love for computers.</p>
+                <p>Currently enrolled in the UCONN Coding Bootcamp to learn about full stack web development and expand my knowledge about modern technology as a whole.</p>
+                <p>I've worked with HTML, CSS, Bootstrap, javaScript, jQuery, and Node.js.</p>
+                <br>
+                <a href="assets/Erin_Seppala_Resume.PDF" class="btn btn-outline-dark">Resume</a>
+            </div>
+        </section>
         
-                <div class="col-md-4">
-                    <div class="card text-dark bg-light mb-3" style="width: 18rem;">
-                        <img src="images\Code Refactor.png" class="card-img-top" alt="Code Refactor">
-                        <div class="card-body">
-                        <h5 class="card-title"><a href="https://am-cowles.github.io/Code-Refactor/Develop/index.html" class="btn btn-dark">Code Refactor</a></h5>
-                        <p class="card-text">The purpose of this project was to edit the code in order to ensure the proper use of HTML tags.</p>
-                        <a href="https://github.com/AM-Cowles/Code-Refactor" class="btn btn-outline-dark">Github Repository</a>
-                        </div>
-                    </div>
-                </div>
+    </main>
+</body>
 
-                <div class="col-md-4">
-                    <div class="card text-dark bg-light mb-3" style="width: 18rem;">
-                        <img src="images\password_generatorapp.png" class="card-img-top" alt="Password Generator">
-                        <div class="card-body">
-                        <h5 class="card-title"><a href="https://am-cowles.github.io/Password-Generator/index.html" class="btn btn-dark">Password Generator</a></h5>
-                        <p class="card-text">The purpose of this application is to generate a secure password by prompting the user to enter values based on the given criteria.</p>
-                        <a href="https://github.com/AM-Cowles/Password-Generator" class="btn btn-outline-dark">Github Repository</a>
-                        </div>
-                    </div>
-                </div>
 
-        </section>
+<footer class="footer">
+    <div class="col-lg-6">
+        <a href="https://www.linkedin.com/in/erin-seppala">
+        <img src="assets/img/linkedin-logo.png" class="img-fluid" width="50" height="50" alt="linkedin-logo"></a>
 
-        </section>
-        <br>
-        <section class="content" id="contact-me">
-            <h3>Contact Me</h3>
-        </section>
-        <br>
-
-        <form>
-            <div class="mb-3">
-                <label for="inputName" class="form-label">Name</label>
-                <input type="name" class="form-control" id="inputName">
-                <div class="form-text">Enter your name.</div>
-            </div>
-            <div class="mb-3">
-                <label for="inputEmail" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail">
-                <div class="form-text">Enter your email.</div>
-            </div>
-            <div class="mb-3">
-                <label for="inputMessage" class="form-label">Message</label>
-                <input type="message" class="form-control" id="inputMessage">
-                <div class="form-text">Enter a message for the author.</div>
-            </div>
-            <button type="submit" class="btn btn-outline-dark">Submit</button>
-        </form>
-
-        <br>
-        <p><strong>Author:</strong> Alyssa Cowles<br>
-        <strong><a href="mailto:alyssa.m.cowles@gmail.com">Email me!</a><br></strong>
-        <strong>Phone Number:</strong> 760-315-5668
-        </p>
-    </body>
+        <a href="https://github.com/aseppala98">
+        <img src="assets/img/github-logo.png" class="img-fluid" width="60" height="60" alt="github-logo"></a>
+    
+        <a href="https://twitter.com/SeppalaErin">
+        <img src="assets/img/twitter-logo.png" class="img-fluid" width="50" height="50" alt="twitter-logo"></a>
+    </div>
+</footer>
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
 </html>
