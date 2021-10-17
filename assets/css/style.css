@@ -14,7 +14,7 @@ body, html{
 }
 
 .top-page {
-    background-image: url("img/coding-brain.jpg");
+    background-image: url("../img/coding-brain.jpg");
     height: 300px;
     color: white;
     text-align: center;
