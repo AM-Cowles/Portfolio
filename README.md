@@ -16,7 +16,7 @@ The Deployed Application can be accessed at : [Responsive-Portfolio](https://AM-
 
 # Portfolio Page Displaying Projects
 
-![Portfolio](assets/img/Portfolio.png)
+![Portfolio](assets/img/portfolio-site.jpg)
 
 # Contact Page Containing Contact Info
 
